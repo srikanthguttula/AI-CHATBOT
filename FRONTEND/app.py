@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-# ================== CONFIG ==================
-API_BASE = "https://ai-chatbot-42pn.onrender.com"   # Change this if deployed
+# ================== CONFIG ================== 
+API_BASE = "https://ai-chatbot-42pn.onrender.com"  
 CHAT_ENDPOINT = f"{API_BASE}/chat"
 HEALTH_ENDPOINT = f"{API_BASE}/health"
 
